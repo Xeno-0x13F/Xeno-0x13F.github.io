@@ -1,14 +1,14 @@
 @font-face {
   font-family: "gokuboso";
-  src: url("./font/chogokubosogothic_5.ttf") format("truetype");
+  src: url("fonts/chogokubosogothic_5.ttf") format("truetype");
 }
 @font-face {
   font-family: "opening";
-  src: url("./font/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
+  src: url("fonts/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "text";
-  src: url("./font/HigureGothic-Light.ttf") format("truetype");
+  src: url("fonts/HigureGothic-Light.ttf") format("truetype");
 }
 
 body {
@@ -117,6 +117,23 @@ img {
   color: black;
   margin: .75vw 11vw;
 }
+.github {
+  font-size: 2vw;
+  font-family: "text";
+  color: #69a0b9;
+  display: block;
+  margin: 10vw 11vw;
+  margin-bottom: 2vw;
+  text-decoration: none;
+  width: fit-content;
+}
+.copyright {
+  font-size: 1.1vw;
+  font-family: "text";
+  color: black;
+  margin: 2vw 4vw;
+  text-align: end;
+}
 .inline1 {
   display: flex;
 }
@@ -165,11 +182,28 @@ li {
   visibility: visible;
   padding: 1vw;
 }
-.scaleup {
+.scaleup1 {
   transition: transform 0.3s ease-in-out;
 }
-.scaleup:hover {
+.scaleup1:hover {
   transform: scale(1.2)
+}
+.scaleup2 {
+  transition: transform 0.3s ease-in-out;
+}
+.scaleup2:hover {
+  transform: scale(1.1)
+}
+.fadein {
+  animation: fadeIn 0.75s ease-in-out forwards;
+}
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @-webkit-keyframes passing-bar{
   0% {
