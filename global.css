@@ -1,14 +1,14 @@
 @font-face {
   font-family: "gokuboso";
-  src: url("https://xeno-0x13f.github.io/font/chogokubosogothic_5.ttf") format("truetype");
+  src: url("./font/chogokubosogothic_5.ttf") format("truetype");
 }
 @font-face {
   font-family: "opening";
-  src: url("https://xeno-0x13f.github.io/font/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
+  src: url("./font/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "text";
-  src: url("https://xeno-0x13f.github.io/font/HigureGothic-Light.ttf") format("truetype");
+  src: url("./font/HigureGothic-Light.ttf") format("truetype");
 }
 
 body {
