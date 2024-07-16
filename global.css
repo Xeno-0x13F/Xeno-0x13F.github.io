@@ -1,14 +1,14 @@
 @font-face {
   font-family: "gokuboso";
-  src: url("fonts/chogokubosogothic_5.ttf") format("truetype");
+  src: url("./fonts/chogokubosogothic_5.ttf") format("truetype");
 }
 @font-face {
   font-family: "opening";
-  src: url("fonts/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
+  src: url("./fonts/BodoniModaSC-VariableFont_opsz,wght.ttf") format("truetype");
 }
 @font-face {
   font-family: "text";
-  src: url("fonts/HigureGothic-Light.ttf") format("truetype");
+  src: url("./fonts/HigureGothic-Light.ttf") format("truetype");
 }
 
 body {
